@@ -1,0 +1,92 @@
+body{
+    background-color: #f07167;
+    font-family: 'Special Elite', cursive;
+}
+img {
+    width: 50px;
+    height: auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    padding: 20px;
+    background-color: #00AFB9;
+    border-radius: 15px;
+    box-shadow: 0 4px #6fcddd;
+    margin: 0 10px;
+    transition: all 0.15s ease-in-out;
+}
+.btn:hover{
+    background-color: #3fb6bd;
+    box-shadow: 0 4px #91d2dd;
+}
+.btn:active{
+    transform: translateY(4px);
+    box-shadow: 0 0 #d1dadb;
+}
+.btn-disabled{
+    border: none;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+.gameBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+}
+.playerMov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    background-color: #0081A7;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+}
+.computerMov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #00AFB9;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #FED9B7;
+}
+.counter{
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playerScore, .computerScore {
+    margin: 10px 15px;
+}
